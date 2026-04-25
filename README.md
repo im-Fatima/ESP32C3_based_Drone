@@ -1,8 +1,8 @@
 # ESP32C3_based_Drone
 
-[!drone] (drone.jpg)
+![drone] (drone.jpg)
 
-[!complete_drone] (drone2.jpg)
+![complete_drone] (drone2.jpeg)
 
 
 ## OVERVIEW
@@ -14,10 +14,10 @@ I didn't reach the "perfect flight" stage, but I learned more about embedded sys
 ## The Frame
 
 I opted for a cheap solution which was using an Acrylic sheet for the frame, apparently it turned out to be too heavy for the drone. As for my next version I am designing a 3d chasis to avoid this issue.
-[! Frame_Image] (frame.png)
+![Frame_Image] (frame.jpg)
 
 ## The Flight Controller
 
 I used ESP32C3 for two reasons, first that I initially aimed for ESPNOW protocol but it turns out, this was nearly impossible for a good drone as this protocol isn't good enough for a long range, and second that it is the cheapest version of ESP32, but apparently that comes with it's own cost, because it turns out, it doesn't have BLE that could support a connection with mobile and writing my own firmware from scratch including a browser interface for the drone control was really hard for me because I didn't have much experience with complex firmwares. Still it does work well over Wifi but only for a short range. For the V2.0, I have planned to design my flight controller using an STM32.
-[!Flight controller] (controller.png)
+![Flight controller] (controller.jpg)
 
